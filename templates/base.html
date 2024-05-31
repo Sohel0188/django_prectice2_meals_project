@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-md-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="">Logo</a>
+          <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{% url 'home' %}">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{% url 'meals' %}">Meals</a>
+              </li>
+             
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    {% block content %}
+    <div class="container">
+        <h1>This is home page</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro deleniti dolorum architecto assumenda optio asperiores eaque ab excepturi doloremque, molestiae nesciunt natus illo accusantium ratione commodi nostrum labore est animi voluptates error. Laborum veritatis ab at harum, repellendus molestiae, molestias consequatur officia recusandae autem, sunt corrupti ducimus incidunt dignissimos quia! Ipsa ex officia, aperiam alias animi nobis reprehenderit! Iure, enim minima. Veritatis vero pariatur ipsum nulla minus aliquid velit ex excepturi quas corrupti? Voluptatibus quasi amet quisquam. Praesentium culpa doloremque voluptatem tempore dolore optio eius magnam, sunt nihil quam nesciunt! Facilis ipsam animi doloribus, amet molestias dolore id ut dolor aliquam, sapiente explicabo voluptatibus sit, unde odit ipsa recusandae earum deleniti aut nulla. Dolorem distinctio quasi optio dolor! Dolores dignissimos, quasi ipsam possimus, excepturi quam architecto optio at ex error neque placeat illum fugit voluptatem distinctio, est asperiores molestiae dolorem et cupiditate pariatur officia? Dolor labore ullam, fugit, dolorum eos eveniet laudantium vero sapiente minus facere odio. Sequi officia quis perspiciatis quia magni odio. Reprehenderit, ullam corporis itaque est nobis ratione aut quod. Provident corporis in ad dicta sed nam at, possimus labore harum commodi illo laboriosam nostrum adipisci nulla esse atque facere est hic explicabo magnam, ea cumque. Ipsam ullam totam veritatis, ab blanditiis, illo autem optio, tempora exercitationem error odit labore accusantium. Ipsa provident enim dolores adipisci amet veritatis sed est beatae libero a error necessitatibus aliquid mollitia quae, dicta, quam magni laudantium? Inventore illum ratione dolorum obcaecati doloribus sit, expedita officiis molestias, perspiciatis vero aliquid debitis deserunt eius voluptatibus porro! Expedita error itaque ipsa quia, ex sunt autem sed cumque tempora dolore earum ut adipisci quisquam deleniti temporibus facilis optio inventore porro reiciendis quasi consequuntur nulla. A eos qui libero, aliquam, esse dolorem labore mollitia consequuntur, repellendus ullam perferendis unde optio vel incidunt voluptatibus quidem iste illo! Ratione, corrupti? Quam tempora rem dolore minus iste asperiores voluptate sed molestiae repudiandae ex quisquam sunt magni facilis dicta iure ipsa nobis libero delectus quo assumenda aliquam harum, ratione obcaecati non. Sit corporis sed voluptatem! Quo minus cumque, autem libero cum atque aut provident, maxime doloribus repudiandae dicta aspernatur sit similique in. Ipsa tenetur possimus voluptas modi soluta, aut voluptatum ratione aperiam deserunt qui doloribus. Officiis obcaecati ipsum recusandae repudiandae quae, delectus possimus fuga voluptatibus natus enim beatae doloribus eius placeat, nisi ex nesciunt. Consectetur fuga perspiciatis molestias, minima vitae alias provident quis quas nostrum doloremque quidem commodi distinctio velit nisi impedit quia cupiditate aspernatur quasi, nemo in eligendi numquam suscipit! Vel commodi cupiditate distinctio aspernatur laudantium consequatur beatae reprehenderit nemo, ad maxime nisi sed laborum eius nesciunt! Rem odio neque harum facere, commodi sequi a eligendi culpa animi earum quo assumenda ratione atque rerum ad ullam quam repudiandae nobis tenetur porro ipsum nulla provident. Cumque consequatur, neque tempora veniam, magni eos veritatis nam, et culpa sed iure eaque nihil quisquam saepe praesentium ab consectetur voluptate dolorum voluptas natus labore facere velit similique. Officia quasi provident, sint accusamus, excepturi nobis, ratione reiciendis labore nostrum ab ducimus repudiandae? Enim, asperiores natus.</p>
+    </div>
+    
+    {% endblock content %}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
